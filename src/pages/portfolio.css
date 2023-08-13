@@ -1,0 +1,432 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
+.firstTitle {
+  color: #0b0c0c;
+  font-family: Inter;
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 10px; /* 134.615% */
+  margin-bottom: 0px;
+}
+
+.secondTitle {
+  color: #00a8cc;
+  font-family: Inter;
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 90px;
+  margin-top: 0px;
+}
+
+.normalTxt {
+  color: #0b0c0c;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 1.08px;
+}
+
+.imageStyle {
+  width: 459px;
+  height: 551px;
+  flex-shrink: 0;
+}
+
+.techstackTxt {
+  color: #00a8cc;
+  text-align: center;
+  font-family: Inter;
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 26px; /* 54.167% */
+}
+
+.technologiesTxt {
+  color: #666;
+  text-align: center;
+  font-family: Inter;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 81.25% */
+}
+
+.techImage {
+  width: auto;
+  height: 80px;
+}
+
+.hoverImage {
+  transition: transform 0.3s ease-in-out; /* Add a smooth transition */
+}
+
+.hoverImage:hover {
+  transform: translateX(10px); /* Move the image horizontally on hover */
+}
+
+.servicesTxt {
+  color: #00a8cc;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 25px; /* 29px */
+}
+
+.hireTxt {
+  color: #0b0c0c;
+  font-family: Inter;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 34px; /* 135% */
+}
+
+.descriptionTxt {
+  color: #323433;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 24px */
+}
+
+.experiencesTxt {
+  color: #0b0c0c;
+  font-family: Inter;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px; /* 62.5% */
+}
+
+.line {
+  width: 80%;
+  height: 2px;
+  background: black;
+  margin: 30px 0;
+}
+
+.lineLight {
+  width: 80%;
+  height: 2px;
+  background: #ebeaed;
+  margin: 10px 0;
+}
+
+.workTitle {
+  color: #0b0c0c;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 140% */
+  letter-spacing: 1px;
+}
+
+.workPosition {
+  float: right;
+  border-radius: 100px;
+  background: rgba(0, 168, 204, 0.2);
+  width: max-content;
+  padding: 5px 10px 5px 10px;
+  margin: auto;
+  color: #00a8cc;
+  text-align: center;
+  font-family: Inter;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 26px; /* 288.889% */
+}
+
+.infoTxt {
+  color: #323433;
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px; /* 233.333% */
+  letter-spacing: 1px;
+}
+
+.skillStyles {
+  color: #0b0c0c;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px; /* 100% */
+}
+
+.skillDescription {
+  color: #323433;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 21px */
+}
+
+.skillContainer {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 800px;
+  margin: auto;
+  margin-top: 60px;
+}
+
+.App {
+  scroll-behavior: smooth; /* Enable smooth scrolling */
+}
+
+.projectsChoices {
+  color: #0b0c0c;
+  text-align: center;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 2.88px;
+  cursor: pointer;
+}
+
+.projectsChoices.selected {
+  color: #00a8cc;
+}
+
+.hidden {
+  display: none;
+}
+
+.projectThumbnail {
+  width: auto;
+  height: 300px;
+}
+
+.projectName {
+  text-align: center;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 2.88px;
+}
+
+.carouselImage {
+  width: auto;
+  height: 400px;
+}
+
+.linkFont {
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 2.88px;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.fifthRowTxt1 {
+  color: #4275fa;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 30px */
+}
+.fifthRowTxt2 {
+  color: #323433;
+  text-align: center;
+
+  /* Heading / H2 Header */
+  font-family: DM Sans;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 10px; /* 120.69% */
+  letter-spacing: -1px;
+}
+.fifthRowTxt3 {
+  color: #4275fa;
+  text-align: center;
+
+  /* Heading / H2 Header */
+  font-family: DM Sans;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px; /* 120.69% */
+  letter-spacing: -1px;
+}
+
+.footerTxt {
+  color: #000;
+  text-align: center;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.footerStyles {
+  background: #edf7fa;
+  padding-top: 70px;
+}
+
+.iconSizes {
+  width: auto;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.rowWidth{
+  width: 80%;
+}
+
+.infoRight{
+  text-align: right;
+}
+
+.centerContents {
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 768px) {
+  .reverseCol {
+    flex-direction: column-reverse;
+  }
+
+  .firstTitle {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 35px;
+  }
+
+  .secondTitle {
+    text-align: center;
+    line-height: 60px;
+    font-size: 30px;
+  }
+
+  .normalTxt {
+    text-align: center;
+  }
+
+  .centerBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .techImage {
+    width: auto;
+    height: 25px;
+  }
+
+  .line {
+    width: 100%;
+
+  }
+  
+  .lineLight {
+    width: 100%;
+  }
+
+  .rowWidth{
+    width: 100%
+  }
+
+  .workTitle {
+    color: #0b0c0c;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 140% */
+    letter-spacing: 1px;
+  }
+  
+  .workPosition {
+    float: left;
+    margin-bottom: 10px;
+  }
+
+  .infoRight{
+    text-align: left;
+  }
+
+  .skillContainer{
+    display: block;
+    margin: 0 auto;
+
+  }
+
+  .skillContainer > div {
+    display: grid;
+    place-items: center;
+  }
+
+  .imageStyle {
+    width: 300px;
+    height: auto;
+  }
+
+  .projectThumbnail {
+    width: auto;
+    height: 200px;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .fifthRowTxt1 {
+    font-size: 15px;
+  }
+  .fifthRowTxt2 {
+    color: #323433;
+    text-align: center;
+  
+    /* Heading / H2 Header */
+    font-size: 22px;
+    line-height: 0px; /* 120.69% */
+
+  }
+  .fifthRowTxt3 {
+    font-size: 22px;
+    line-height: 30px; /* 120.69% */
+
+  }
+  
+  .footerStyles {
+    padding-top: 20px;
+    height: 100%;
+  }
+
+  .iconSizes {
+    width: auto;
+    height: 30px;
+  }
+
+  .centerContents {
+    display: flex;
+    justify-content: center;
+  }
+  
+}

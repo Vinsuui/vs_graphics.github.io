@@ -1,0 +1,35 @@
+
+
+[
+    {
+      "id": 1,
+      "category": "Graphic",
+      "name": "Graphic Project 1",
+      "thumbnail": "../assets/projects.png"
+    },
+    {
+      "id": 2,
+      "category": "UI",
+      "name": "UI/UX Project 1",
+      "thumbnail": "../assets/projects.png"
+    },
+    {
+      "id": 3,
+      "category": "Web",
+      "name": "Web App Project 1",
+      "thumbnail": "../assets/projects.png"
+    },
+    {
+      "id": 4,
+      "category": "Graphic",
+      "name": "Graphic Project 2",
+      "thumbnail": "../assets/projects.png"
+    },
+    {
+      "id": 5,
+      "category": "UI",
+      "name": "UI/UX Project 2",
+      "thumbnail": "../assets/projects.png"
+    }
+  ]
+  
