@@ -33,9 +33,8 @@
 }
 
 .imageStyle {
-  width: 459px;
-  height: 551px;
-  flex-shrink: 0;
+  width: 500px;
+  height:auto;
 }
 
 .techstackTxt {

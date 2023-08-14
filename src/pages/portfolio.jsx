@@ -225,9 +225,10 @@ function Portfolio() {
             display: "flex",
             flexDirection: "column",
             justifyContent: "center",
+            alignItems: "center", // Center contents vertically
           }}
         >
-          <img src={Image} className="imageStyle" />
+          <img src={Image} className="imageStyle"/>
         </Col>
       </Row>
 
