@@ -8,7 +8,7 @@ function Index() {
       
         <Routes>
           
-            <Route path="/" element={<Portfolio />} />
+            <Route path="/vite-deploy/" element={<Portfolio />} />
           
         
         </Routes>
