@@ -1,20 +1,21 @@
+import Navbar from "react-bootstrap/Navbar";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
-import Navbar from "react-bootstrap/Navbar";
 import { Link } from "react-scroll";
 
 import Logo from "../../assets/logo.png";
-
 import "./navbar.css";
 
 function Topbar() {
   return (
     <Navbar collapseOnSelect expand="lg">
       <Container>
-        <Navbar.Brand href="#home"><img src={Logo} alt="Logo" /></Navbar.Brand>
+        <Navbar.Brand href="#home">
+          <img src={Logo} alt="Logo" />
+        </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
-          <Nav style={{ marginLeft: "auto" }}>
+          <Nav className="ml-auto">
             <Nav.Link
               className="navText"
               as={Link}
