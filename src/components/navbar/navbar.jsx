@@ -11,17 +11,17 @@ function Topbar() {
   return (
     <Navbar collapseOnSelect expand="lg">
       <Container>
-        <Navbar.Brand href="#home"><img src={Logo}/></Navbar.Brand>
+        <Navbar.Brand href="#home"><img src={Logo} alt="Logo" /></Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav style={{ marginLeft: "auto" }}>
-          <Nav.Link
+            <Nav.Link
               className="navText"
               as={Link}
               to="about"
               smooth={true}
               spy={true}
-              activeClass="active" // Add active class
+              activeClass="active"
             >
               About
             </Nav.Link>
@@ -41,10 +41,20 @@ function Topbar() {
             >
               Experiences
             </Nav.Link>
-            <Nav.Link className="navText" as={Link} to="projects" smooth={true}>
+            <Nav.Link
+              className="navText"
+              as={Link}
+              to="projects"
+              smooth={true}
+            >
               Projects
             </Nav.Link>
-            <Nav.Link className="navText" as={Link} to="contact" smooth={true}>
+            <Nav.Link
+              className="navText"
+              as={Link}
+              to="contact"
+              smooth={true}
+            >
               Contact
             </Nav.Link>
           </Nav>
