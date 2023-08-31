@@ -4,10 +4,30 @@
   color: #0b0c0c;
   text-align: center;
   font-family: Poppins;
-  font-size: 50px;
+  font-size: 20px;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
   margin-right: 20px;
   cursor: pointer;
+  text-decoration: none; /* Remove underline */
+}
+
+.firstNav{
+  margin-left: 50px;
+}
+.navText.active {
+  color: blue; /* Change color for active link */
+}
+
+@media (max-width: 768px) {
+  .navText {
+    margin-right: 0; /* Remove right margin on mobile screens */
+    text-align: center; /* Center-align links on mobile */
+    width: 100%; /* Make the links occupy full width on mobile */
+  }
+  .firstNav{
+    margin-left: 0px;
+  }
+
 }

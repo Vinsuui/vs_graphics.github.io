@@ -1,63 +1,71 @@
+import { Link, animateScroll as scroll } from "react-scroll";
 import Navbar from "react-bootstrap/Navbar";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
-import { Link } from "react-scroll";
 
 import Logo from "../../assets/logo.png";
 import "./navbar.css";
 
 function Topbar() {
+  const scrollToTop = () => {
+    scroll.scrollToTop();
+  };
+
   return (
     <Navbar collapseOnSelect expand="lg">
       <Container>
-        <Navbar.Brand href="#home">
+        <Navbar.Brand onClick={scrollToTop}>
           <img src={Logo} alt="Logo" />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ml-auto">
-            <Nav.Link
-              className="navText"
-              as={Link}
-              to="about"
-              smooth={true}
-              spy={true}
+            <Link
+              className="navText firstNav"
               activeClass="active"
+              to="about"
+              spy={true}
+              smooth={true}
+              offset={-70} // Adjust the offset to avoid overlapping with content
             >
               About
-            </Nav.Link>
-            <Nav.Link
+            </Link>
+            <Link
               className="navText"
-              as={Link}
               to="tech-stack"
+              spy={true}
               smooth={true}
+              offset={-70}
             >
               Stacks
-            </Nav.Link>
-            <Nav.Link
+            </Link>
+            <Link
               className="navText"
-              as={Link}
               to="experiences"
+              spy={true}
               smooth={true}
+              offset={-70}
             >
               Experiences
-            </Nav.Link>
-            <Nav.Link
+            </Link>
+            <Link
               className="navText"
-              as={Link}
               to="projects"
+              spy={true}
               smooth={true}
+              offset={-70}
             >
               Projects
-            </Nav.Link>
-            <Nav.Link
+            </Link>
+            <Link
               className="navText"
-              as={Link}
               to="contact"
+              spy={true}
               smooth={true}
+              offset={-70}
             >
               Contact
-            </Nav.Link>
+            </Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
